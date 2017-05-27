@@ -64,6 +64,7 @@ nStates = labelsArray.getSize-1; % -1 to remove time from size count
 
 currentTimeFrame = 1
 cla;
+frameCountActual =1;
 frameCountActual = frameCountActual +1;
 statesStorage.getTime(currentTimeFrame, state.updTime);
 currentTime = state.getTime;
